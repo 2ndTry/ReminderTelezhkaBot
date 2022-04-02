@@ -16,6 +16,7 @@ CREATE TABLE user_events
     FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
 );
 
+
 CREATE TABLE event_cash
 (
     time timestamp,
