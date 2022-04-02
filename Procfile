@@ -1,0 +1,1 @@
+web java -Dserver.port=$PORT $JAVA_OPTS -jar target/reminder-telezhka-bot-0.0.1-SNAPSHOT.jar
